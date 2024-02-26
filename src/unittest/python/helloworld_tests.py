@@ -6,3 +6,4 @@ class HelloWorldTest(unittest.TestCase):
         out = mock()
         helloworld(out)
         verify(out).write("Hello world of Python\n")
+        verify(out).write("Hello world of Python123\n")
